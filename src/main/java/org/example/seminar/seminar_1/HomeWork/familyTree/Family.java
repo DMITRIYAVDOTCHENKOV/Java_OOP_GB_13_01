@@ -10,7 +10,7 @@ public class Family {
     public static int mySize = 0;
 
     public Family(String name) {
-        myRoot = new Amoeba(name, null);
+        myRoot = new Amoeba(name,null);
     }
 
     public   class Amoeba {
@@ -103,25 +103,25 @@ public class Family {
 
     public static void depthIndenter(int myDepth) {
         while (myDepth > 0) {
-            System.out.print("    ");
+            System.out.print("   ");
             myDepth--;
         }
     }
 
     public static void main(String[] args) {
         Family family = new Family("Ивановы");
-        family.addChild("Ивановы", "мама/папа");
-        family.addChild("Ивановы", "тетя");
-        family.addChild("мама/папа", "мне");
-        family.addChild("мама/папа", "Петя");
-        family.addChild("мама/папа", "Анна");
-        family.addChild("мне", "Коля");
-        family.addChild("мне", "Гомер");
-        family.addChild("мне", "Марина");
-        family.addChild("Серега", "Артем");
-        family.addChild("Серга", "Алиса");
-        family.addChild("Настя", "Вика");
-        family.addChild("Настя", "Ксюша");
+        family.addChild("Ивановы","мама/папа");
+        family.addChild("Ивановы","тетя");
+        family.addChild("мама/папа","я");
+        family.addChild("мама/папа","Петя");
+        family.addChild("мама/папа","Анна");
+        family.addChild("я","Коля");
+        family.addChild("я","Гомер");
+        family.addChild("я","Марина");
+        family.addChild("Серега","Артем");
+        family.addChild("Серга","Алиса");
+        family.addChild("Настя","Вика");
+        family.addChild("Настя","Ксюша");
 
         if (iAmDebugging) {
             family.printFlat();
