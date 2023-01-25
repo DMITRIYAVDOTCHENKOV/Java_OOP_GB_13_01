@@ -7,7 +7,7 @@ public class Gen2<T, V> {
 
     Gen2(T o1, V o2) {
         ob1 = o1;
-        ob2 = ob2;
+        ob2 = o2;
     }
 
     void showTypes() {

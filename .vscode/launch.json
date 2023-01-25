@@ -1,0 +1,251 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Get5Demo",
+            "request": "launch",
+            "mainClass": "org.example.seminar4.Task5.Get5Demo",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "org.example.Main",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex000",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex000",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex001",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex001",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex002",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex002",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex003",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex003",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex004",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex004",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex005",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex005",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex006",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex006",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex007",
+            "request": "launch",
+            "mainClass": "org.example.leccii.lekciy_1.Lesson_03.Ex007",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch PointMethod",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex001.PointMethod",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex002.Program",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program(1)",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex003.Program",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program(2)",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex004.Program",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program(3)",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex005.Program",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program(4)",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex006.Program",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teams",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex006.Teams",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program(5)",
+            "request": "launch",
+            "mainClass": "org.example.lekciy_1.Ex007.Program",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "org.example.seminar3.HW.main",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenDemo",
+            "request": "launch",
+            "mainClass": "org.example.seminar4.Task1.GenDemo",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpGen",
+            "request": "launch",
+            "mainClass": "org.example.seminar4.Task2.SimpGen",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gen3",
+            "request": "launch",
+            "mainClass": "org.example.seminar4.Task3.Gen3",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gen5",
+            "request": "launch",
+            "mainClass": "org.example.seminar4.Task4.Gen5",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Family",
+            "request": "launch",
+            "mainClass": "org.example.seminar_1.HomeWork.familyTree.Family",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch FamilyTree",
+            "request": "launch",
+            "mainClass": "org.example.seminar_1.HomeWork.familyTree.FamilyTree",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Familly_Tree",
+            "request": "launch",
+            "mainClass": "org.example.seminar_1.HomeWork.familyTree.family.Familly_Tree",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch FutureMain",
+            "request": "launch",
+            "mainClass": "org.example.seminar_1.HomeWork.familyTree.funcops.monad.FutureMain",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shapes",
+            "request": "launch",
+            "mainClass": "org.example.seminar_1.Shapes",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "org.example.seminar_1.Test",
+            "projectName": "Java_OOP_GB_13_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tests",
+            "request": "launch",
+            "mainClass": "org.example.seminar_1.Tests",
+            "projectName": "Java_OOP_GB_13_01"
+        }
+    ]
+}
