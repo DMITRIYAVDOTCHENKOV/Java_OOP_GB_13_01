@@ -1,0 +1,40 @@
+{
+"id" : 1, {
+"Task":Выучить Java,
+"author":"Дмитрий",
+"adding time":"04:18"
+"adding date":"26:01:2023"
+"deadline":"01.12.24"
+"priority":"средний приоритет"
+}
+}
+{
+"id" : 2, {
+"Task":Сходить в кино,
+"author":"Дмитрий",
+"adding time":"04:18"
+"adding date":"26:01:2023"
+"deadline":"30.6.23"
+"priority":"средний приоритет"
+}
+}
+{
+"id" : 3, {
+"Task":Купить пивка,
+"author":"Дмитрий",
+"adding time":"04:18"
+"adding date":"26:01:2023"
+"deadline":"30.02.23"
+"priority":"приоритет низкий"
+}
+}
+{
+"id" : 4, {
+"Task":Погулять с ребенком,
+"author":"Дмитрий",
+"adding time":"04:18"
+"adding date":"26:01:2023"
+"deadline":"30.01.23"
+"priority":"наивысший приоритет"
+}
+}
