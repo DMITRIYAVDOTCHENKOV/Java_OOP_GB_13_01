@@ -29,6 +29,16 @@
             <artifactId>jis-command</artifactId>
             <version>1.0.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>iview</artifactId>
+            <version>3.5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars.bowergithub.natashawylie</groupId>
+            <artifactId>iviewer</artifactId>
+            <version>0.7.11</version>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
