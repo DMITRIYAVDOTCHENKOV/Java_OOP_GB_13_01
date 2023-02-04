@@ -7,7 +7,7 @@ import org.example.seminar5.Homeworks.PhoneBook.Person.Person;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class View implements IView {
+public class View implements IView,IshowMenu {
 
 
     @Override
